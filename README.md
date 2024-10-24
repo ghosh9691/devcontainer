@@ -15,7 +15,7 @@ In order to build this container, you should have Docker installed on your machi
     RUN /goto-cert-setup.sh
 
     ```
-4. Download the cross-compiling tool to your folder from https://github.com/lordmilko/i686-elf-tools/releases/tag/13.2.0
+4. Download the cross-compiling tool to your folder from https://github.com/lordmilko/i686-elf-tools/releases if the included version is old (v13.2.0)
 5. Make any other changes to the `Dockerfile` as necessary
 6. Build using the following Docker command
     `docker build . -t <your_tag>`
